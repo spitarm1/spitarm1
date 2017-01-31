@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8" />
+        <title>JailBreak 10.x - 10.2</title>
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+        @import url('https://fonts.googleapis.com/css?family=Rubik');
+        body{
+          background-image: url("likes10.png")
+        }
+        .title{
+          font-family: 'Yanone Kaffeesatz', sans-serif;
+          font-size: 2.5em;
+          text-align: center;
+          margin-bottom: 1em;
+        }
+
+        .titleimg{
+          text-align: center;
+          margin-bottom: 2em;
+        }
+
+        .open{
+          color: #D80000;
+          text-align: center;
+          margin-bottom: 4em;
+        }
+        p{
+          font-family: 'Rubik', sans-serif;
+          text-align: center;
+        }
+        </style>
+
+</head>
+    <body>
+
+      <script src="clipboard.min.js"></script>
+
+      <script>
+      new Clipboard('.btn-clipboard');
+      </script>
+
+      <div class="title">
+        Накрутка лайков instagram!
+      </div>
+
+      <div class="titleimg">
+      <center><img src="likes.png" style="max-width: 100%; height: auto;"></center><br><br>
+    </div>
+
+      <div class="open">
+        Ваш профиль должен быть открытым!
+      </div>
+
+<p><strong>Шаг 1:</strong> Опублекуйте нужно фото в instagram.</p>
+
+<center><img src="like.png" style="max-width: 100%; height: auto;"></center><br><br>
+
+<p><strong>Шаг 2:</strong>Откройте опублекованное фото на компьютере, и скопируйте ссылку, перед этим вам нужно удалить "?taken-by=НИК ВАШЕГО АККАУНТА".</p>
+
+<center><img src="likes2.png" style="max-width: 100%; height: auto;"></center><br><br>
+
+<p><strong>Шаг 3:</strong>Вставьте скопированную раннее ссылку в конце спец ссылки, которую можно будет скопировать нажав на кнопку "Скопировать".</p>
+
+<center><button class="btn-clipboard" data-clipboard-text="api.instagram.com/oembed/?url=">
+Скопировать
+</button><br></br></center>
+
+<p><strong>Шаг 4:</strong>Попав на примерно такую сраницу, вы увидете json-запрос, вы должны найти и скопировать содержимое "media_id".</p>
+<center><img src="likes4.png" style="max-width: 100%; height: auto;"></center>
+<p>Содержимое "media_id" будет выглядеть следующим образом: 14386464***02473856_7024***71</p><br></br>
+
+<p><strong>Шаг 5:</strong>Вставьте скопированное значение "media_id", в конце второй спец. ссылки, коорую можно скопировать нажав на кнопку ниже. </p>
+
+<center><button class="btn-clipboard" data-clipboard-text="75.102.21.228/add?id=">
+  Скопировать
+</button><br></br></center>
+
+<p><strong>Вот и всё! Теперь на вашу запись будут крутится лайки!</strong><br></br>Это можно делать много раз:)</p>
+
+</body>
+</html>
